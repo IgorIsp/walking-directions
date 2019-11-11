@@ -1,6 +1,6 @@
 **walking-directions**
 
-By description: [https://open.kattis.com/problems/alldifferentdirections]()
+By description: [https://open.kattis.com/problems/alldifferentdirections](https://open.kattis.com/problems/alldifferentdirections)
 
 
 You can see an example of using in "web/index.php" file this library.
