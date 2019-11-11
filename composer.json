@@ -1,0 +1,33 @@
+{
+    "name": "igorisp/walking-directions",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Igor Ispir",
+            "email": "ispir.igor@gmail.com",
+            "homepage": "https://github.com/IgorIsp"
+        }
+    ],
+    "require": {
+        "php": ">=7.3.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^6.5.8"
+    },
+    "autoload": {
+        "psr-4": {
+            "WalkingDirections\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "WalkingDirections\\Tests\\": "tests/",
+            "WalkingDirections\\Web\\": "web/"
+        }
+    },
+    "scripts": {
+        "serve": "php -S 0.0.0.0:9090 -t web",
+        "test": "phpunit --color=always"
+    },
+  "description": "Walking person's direction"
+}
